@@ -1,0 +1,44 @@
+body {
+    margin: 30px;
+}
+
+#headline {
+    color: #fffffe;
+}
+
+.textareas-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.non-formatted-header {
+    color: #94a1b2;
+    height: 60px;
+}
+
+.formatted-container {
+    margin-left: 50px;
+}
+
+.formatted-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 60px;
+}
+
+.formatted-header > h4 {
+    color: #94a1b2;
+}
+
+.formatted-header > button {
+    margin-left: 50px;
+    padding: 10px 5px;
+    background-color: #7f5af0;
+    border: none;
+    color: #fffffe;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
